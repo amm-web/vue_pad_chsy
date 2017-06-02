@@ -1,0 +1,7 @@
+@import "variables";
+@import "function";
+
+.md-text{
+    color: $c-brown;
+    font-size: pxToRem(22px);
+}

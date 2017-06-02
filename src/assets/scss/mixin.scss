@@ -1,0 +1,26 @@
+@import "variables";
+/**
+* @param $path 相对 /image 的路径
+ */
+@mixin getBg($path) { //设置背景图片 eg: @include getBg("back_after");
+  background: url("~IMAGES/" + $path + ".webp") no-repeat;
+}
+
+@mixin center() { //居中：在父元素中引用，作用于子元素
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin centerHorizontal() { //水平居中：在父元素中引用，作用于子元素
+  display: flex;
+  justify-content: center;
+}
+
+@mixin centerVertical() { //垂直居中：在父元素中引用，作用于子元素
+  display: flex;
+  align-items: center;
+}
+
+
+

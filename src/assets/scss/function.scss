@@ -1,0 +1,16 @@
+@import "variables";
+
+$baseFontSize: 40px !default;
+
+// pixels to rems
+@function pxToRem($px) {
+  //@return $px / ($baseFontSize / 1rem);
+  //@return $px + px;
+  @return $px;
+}
+
+@function getImg($path){  //获取图片
+  @return url("~IMAGES/" + $path + ".webp");
+}
+
+
