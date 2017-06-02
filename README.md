@@ -1,6 +1,6 @@
-# vue_sx2py_stu
+# vue_pad_chsy
 
-> 初中数学学生端3.0-VUE版
+> vue项目模板
 
 ## Build Setup
 
